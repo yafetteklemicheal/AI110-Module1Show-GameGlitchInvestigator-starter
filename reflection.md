@@ -8,6 +8,11 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+Bug 1 - Out of bounds guesses are allowed. I expected the app to restrict user submission to remain between 1 and 100 as is in the instructions. However, the app allows users to submit numbers outside of that range.
+
+Bug 2 - Hints provided should nudge the user towards the correct answer but the hints were doing the opposite.
+
+Bug 3 - I expected the app to allow the user to use all available attempts before displaying the "Out of attempts" message. Currently the message appears when the user has 1 attempt remaining.
 ---
 
 ## 2. How did you use AI as a teammate?
