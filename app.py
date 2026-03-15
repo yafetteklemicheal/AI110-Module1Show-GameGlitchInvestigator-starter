@@ -32,6 +32,7 @@ st.sidebar.caption(f"Attempts allowed: {attempt_limit}")
 if "secret" not in st.session_state:
     st.session_state.secret = random.randint(low, high)
 
+#FIX: Updated attempt counter using Copilot Agent mode
 if "attempts" not in st.session_state:
     st.session_state.attempts = 0
 
