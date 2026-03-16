@@ -26,12 +26,22 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+
+The purpuose of the game is to see if the user can guess the secret number before they run out of allowed attempts.
+
 - [ ] Detail which bugs you found.
+
+The first bug I found was that the hints were giving incorrect guidance to the user. 
+The second bug I found was that the user could not use all available attempts and will lose the game with 1 attempt remaining.
+
 - [ ] Explain what fixes you applied.
+
+For the first bug, I reversed the hints so they guide the user properly.
+For the second bug, I updated the logic of the code counting the users attempt so that it starts from 0 rather than 1.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [![alt text](image.png) ![alt text](image-1.png)] [Insert a screenshot of your fixed, winning game here]
 
 ## 🚀 Stretch Features
 

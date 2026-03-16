@@ -55,8 +55,16 @@ The AI did help me understand all the tests that it generated. I asked the AI to
 ## 4. What did you learn about Streamlit and state?
 
 - In your own words, explain why the secret number kept changing in the original app.
+
+The secret number would continue to change with each rerun if we continue to initialize it without checking if it already exists. If we dont check it then with every rerun, the secret number would generate a new random number between the low and high for the difficulty level set.
+
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+
+Its like a website that loads all the info when its start at first, and every time you interact with the website in any way, the screen and all the data displayed will refresh. This continues to happen without the user having to manually reload anything.
+
 - What change did you make that finally gave the game a stable secret number?
+
+The addition of the if statmeent before we initialize the secret number checks if the number has already been initialized and doesnt generate a new one if there is already one generated.
 
 ---
 
@@ -64,5 +72,13 @@ The AI did help me understand all the tests that it generated. I asked the AI to
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+
+Designing prompts with intent to make sure the response it fine tuned to the problem we are trying to solve, rahter than giving a general instructions and having the AI give a lengthy general answer.
+
 - What is one thing you would do differently next time you work with AI on a coding task?
+
+Take some time to figure out what I want the AI to do so I can craft well thought out prompts so I get a response that actually solves my problem.
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+I learned how powerful it can be to have the burden of writing code removed from the engineers shoulders. Learning syntax and understanding data structures and algorithms is still crucial, but just as important is learning system design, and system design is exactly the skill I can develop by creating projects using AI generated code.
